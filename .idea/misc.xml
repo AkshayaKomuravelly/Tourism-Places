@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TourismPlaces/app/src/main/res/layout/fragment_hyderabad.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TourismPlaces/app/src/main/res/layout/fragment_karimnagar.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TourismPlaces/app/src/main/res/layout/fragment_khammam.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TourismPlaces/app/src/main/res/layout/fragment_mahabubnagar.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TourismPlaces/app/src/main/res/layout/fragment_medak.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TourismPlaces/app/src/main/res/layout/fragment_nalgonda.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TourismPlaces/app/src/main/res/layout/fragment_nizamabad.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TourismPlaces/app/src/main/res/layout/fragment_warangal.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TourismPlaces/app/src/main/res/layout/place_layout.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TourismPlaces/app/src/main/res/layout/tourims_layout.xml" value="0.11302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

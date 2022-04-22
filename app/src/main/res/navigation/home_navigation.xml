@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/monuments_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.tourismplaces.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_warangalFragment"
+            app:destination="@id/warangalFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_adilabadFragment"
+            app:destination="@id/adilabadFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_hyderabadFragment"
+            app:destination="@id/hyderabadFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_karimnagarFragment"
+            app:destination="@id/karimnagarFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mahabubnagarFragment"
+            app:destination="@id/mahabubnagarFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_khammamFragment"
+            app:destination="@id/khammamFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_medakFragment"
+            app:destination="@id/medakFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_nalgondaFragment"
+            app:destination="@id/nalgondaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_nizamabadFragment"
+            app:destination="@id/nizamabadFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/adilabadFragment"
+        android:name="com.example.tourismplaces.fragment.AdilabadFragment"
+        android:label="fragment_adalibad"
+        tools:layout="@layout/fragment_adilabad" >
+        <action
+            android:id="@+id/action_adilabadFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/warangalFragment"
+        android:name="com.example.tourismplaces.fragment.warangalFragment"
+        android:label="fragment_warangal"
+        tools:layout="@layout/fragment_warangal" >
+        <action
+            android:id="@+id/action_warangalFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.tourismplaces.fragment.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="details_title"
+            app:argType="string" />
+        <argument
+            android:name="details_image"
+            app:argType="integer" />
+        <argument
+            android:name="details_desc"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/hyderabadFragment"
+        android:name="com.example.tourismplaces.fragment.HyderabadFragment"
+        android:label="fragment_hyderabad"
+        tools:layout="@layout/fragment_hyderabad" >
+        <action
+            android:id="@+id/action_hyderabadFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/karimnagarFragment"
+        android:name="com.example.tourismplaces.fragment.KarimnagarFragment"
+        android:label="fragment_karimnagar"
+        tools:layout="@layout/fragment_karimnagar" >
+        <action
+            android:id="@+id/action_karimnagarFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mahabubnagarFragment"
+        android:name="com.example.tourismplaces.fragment.MahabubnagarFragment"
+        android:label="fragment_mahabubnagar"
+        tools:layout="@layout/fragment_mahabubnagar" >
+        <action
+            android:id="@+id/action_mahabubnagarFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/khammamFragment"
+        android:name="com.example.tourismplaces.fragment.KhammamFragment"
+        android:label="fragment_khammam"
+        tools:layout="@layout/fragment_khammam" >
+        <action
+            android:id="@+id/action_khammamFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/medakFragment"
+        android:name="com.example.tourismplaces.fragment.MedakFragment"
+        android:label="fragment_medak"
+        tools:layout="@layout/fragment_medak" >
+        <action
+            android:id="@+id/action_medakFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nalgondaFragment"
+        android:name="com.example.tourismplaces.fragment.NalgondaFragment"
+        android:label="fragment_nalgonda"
+        tools:layout="@layout/fragment_nalgonda" >
+        <action
+            android:id="@+id/action_nalgondaFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nizamabadFragment"
+        android:name="com.example.tourismplaces.fragment.NizamabadFragment"
+        android:label="fragment_nizamabad"
+        tools:layout="@layout/fragment_nizamabad" >
+        <action
+            android:id="@+id/action_nizamabadFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+</navigation>
